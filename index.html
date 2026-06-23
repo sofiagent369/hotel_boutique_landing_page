@@ -5,6 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hotel Boutique</title>
   <link rel="stylesheet" href="styles.css">
+  <svg style="display: none;">
+    <!-- Iconos SVG -->
+    <symbol id="icon-service1" viewBox="0 0 24 24"><path d="M19.35 10H4.65C3.83 10 3 10.83 3 11.65v6.7c0 .92.7 1.65 1.5 1.65h14.7c.92 0 1.65-.73 1.65-1.65v-6.7c0-.82-.63-1.65-1.5-1.65zM12 21.65c-1.8 0-3.26-.67-4.48-1.9l-1.38-.92C6.5 19.58 5.5 18.7 5.5 17.5s1-2.08 2.2-2.98l1.38-.92C9.74 14.67 11.2 14 12 14s2.26.67 3.48 1.9l1.38.92c1.2.6.82 1.82-.48 2.98l-1.38.92z"/></symbol>
+    <symbol id="icon-service2" viewBox="0 0 24 24"><path d="M19 13h-1V5c0-2.76-2.24-5-5-5S7 2.24 7 5v8H5c-1.66 0-3 1.34-3 3s1.34 3 3 3h14c1.66 0 3-1.34 3-3s-1.34-3-3-3z"/></symbol>
+  </svg>
 </head>
 <body>
   <!-- Hero Section -->
@@ -19,10 +24,12 @@
   <!-- Service Section -->
   <section id="services">
     <div class="service-card">
+      <svg class="icon"><use xlink:href="#icon-service1"></use></svg>
       <h2>Servicio 1</h2>
       <p>Detalles del servicio 1.</p>
     </div>
     <div class="service-card">
+      <svg class="icon"><use xlink:href="#icon-service2"></use></svg>
       <h2>Servicio 2</h2>
       <p>Detalles del servicio 2.</p>
     </div>
@@ -60,10 +67,10 @@
   <footer>
     <p>&copy; 2023 Hotel Boutique. Todos los derechos reservados.</p>
     <nav>
-      <a href="#hero" aria-label="Ir a la sección Hero">Inicio</a>
-      <a href="#services" aria-label="Ir a la sección Servicios">Servicios</a>
-      <a href="#testimonials" aria-label="Ir a la sección Testimonios">Testimonios</a>
-      <a href="#contacto" aria-label="Ir a la sección Contacto">Contacto</a>
+      <a href="#hero" aria-label="Ir al inicio">Inicio</a>
+      <a href="#services" aria-label="Ir a servicios">Servicios</a>
+      <a href="#testimonials" aria-label="Ir a testimonios">Testimonios</a>
+      <a href="#contacto" aria-label="Ir a contacto">Contacto</a>
     </nav>
   </footer>
 
