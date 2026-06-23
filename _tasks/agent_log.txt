@@ -11,3 +11,5 @@
 [2026-06-23 22:30:53] [CREATED] task_010: Pruebas de usabilidad → ui_expert
 [2026-06-23 22:30:53] [CREATED] task_011: README → writer_agent
 [2026-06-23 22:30:53] [IN_PROGRESS] task_001: Crear estructura HTML básica
+[2026-06-23 22:34:37] [COMPLETED] task_001: Crear estructura HTML básica
+[2026-06-23 22:34:41] [IN_PROGRESS] task_002: Diseñar estilos CSS base

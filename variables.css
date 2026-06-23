@@ -1,0 +1,11 @@
+/* Variables CSS para colores y fuentes */
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+  --background-color-light: #f4f4f9;
+  --background-color-dark: #121212;
+  --text-color-light: #333;
+  --text-color-dark: #fff;
+  --font-family-primary: 'Inter', sans-serif;
+  --font-family-secondary: 'Poppins', sans-serif;
+}
