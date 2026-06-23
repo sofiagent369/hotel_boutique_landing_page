@@ -1,0 +1,196 @@
+{
+  "tasks": [
+    {
+      "id": "task_001",
+      "title": "Crear estructura HTML básica",
+      "description": "Crear index.html con secciones principales: hero, servicios, testimonios, contacto y footer.",
+      "assigned_to": "frontend_expert",
+      "status": "in_progress",
+      "priority": 1,
+      "dependencies": [],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-23T22:30:52.983886",
+      "started_at": "2026-06-23T22:30:53.976402",
+      "completed_at": null
+    },
+    {
+      "id": "task_002",
+      "title": "Diseñar estilos CSS base",
+      "description": "Crear styles.css con variables CSS para colores y fuentes principales. Diseño mobile-first.",
+      "assigned_to": "ui_expert",
+      "status": "pending",
+      "priority": 2,
+      "dependencies": [
+        "task_001"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-23T22:30:52.991422",
+      "started_at": null,
+      "completed_at": null
+    },
+    {
+      "id": "task_003",
+      "title": "Implementar hero section con gradiente",
+      "description": "Diseñar y aplicar estilos para la sección hero con fondo de gradiente y contenido (título, subtitulo).",
+      "assigned_to": "ui_expert",
+      "status": "pending",
+      "priority": 3,
+      "dependencies": [
+        "task_001",
+        "task_002"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-23T22:30:53.001541",
+      "started_at": null,
+      "completed_at": null
+    },
+    {
+      "id": "task_004",
+      "title": "Crear sección de servicios con iconos SVG",
+      "description": "Diseñar y agregar iconos SVG para la sección de servicios. Asegurar responsividad.",
+      "assigned_to": "ui_expert",
+      "status": "pending",
+      "priority": 4,
+      "dependencies": [
+        "task_001",
+        "task_002"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-23T22:30:53.009607",
+      "started_at": null,
+      "completed_at": null
+    },
+    {
+      "id": "task_005",
+      "title": "Implementar testimonios con cards animadas",
+      "description": "Diseñar y crear cards de testimonios con animaciones. Asegurar responsividad.",
+      "assigned_to": "ui_expert",
+      "status": "pending",
+      "priority": 5,
+      "dependencies": [
+        "task_001",
+        "task_002"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-23T22:30:53.009607",
+      "started_at": null,
+      "completed_at": null
+    },
+    {
+      "id": "task_006",
+      "title": "Implementar formulario de contacto funcional",
+      "description": "Crear script.js para validar y enviar el formulario de contacto. Asegurar diseño responsive.",
+      "assigned_to": "frontend_expert",
+      "status": "pending",
+      "priority": 6,
+      "dependencies": [
+        "task_001",
+        "task_002"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-23T22:30:53.023142",
+      "started_at": null,
+      "completed_at": null
+    },
+    {
+      "id": "task_007",
+      "title": "Implementar footer con redes sociales",
+      "description": "Diseñar y agregar enlaces a redes sociales al footer. Asegurar diseño responsive.",
+      "assigned_to": "ui_expert",
+      "status": "pending",
+      "priority": 7,
+      "dependencies": [
+        "task_001",
+        "task_002"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-23T22:30:53.033742",
+      "started_at": null,
+      "completed_at": null
+    },
+    {
+      "id": "task_008",
+      "title": "Implementar dark mode",
+      "description": "Crear funcionalidad para cambiar a modo oscuro utilizando variables CSS. Asegurar cambios en todas las secciones.",
+      "assigned_to": "ui_expert",
+      "status": "pending",
+      "priority": 8,
+      "dependencies": [
+        "task_001",
+        "task_002"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-23T22:30:53.038780",
+      "started_at": null,
+      "completed_at": null
+    },
+    {
+      "id": "task_009",
+      "title": "Optimizar imágenes y assets",
+      "description": "Comprimir e optimizar imágenes y otros recursos estáticos utilizados en la landing page.",
+      "assigned_to": "frontend_expert",
+      "status": "pending",
+      "priority": 9,
+      "dependencies": [
+        "task_001",
+        "task_002"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-23T22:30:53.048918",
+      "started_at": null,
+      "completed_at": null
+    },
+    {
+      "id": "task_010",
+      "title": "Pruebas de usabilidad",
+      "description": "Realizar pruebas de usabilidad en diferentes dispositivos y navegadores para asegurar funcionalidad y diseño.",
+      "assigned_to": "ui_expert",
+      "status": "pending",
+      "priority": 10,
+      "dependencies": [
+        "task_003",
+        "task_004",
+        "task_005",
+        "task_006",
+        "task_007",
+        "task_008"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-23T22:30:53.054471",
+      "started_at": null,
+      "completed_at": null
+    },
+    {
+      "id": "task_011",
+      "title": "README",
+      "description": "Crear README.md con descripción del proyecto, capturas de pantalla y instrucciones de uso.",
+      "assigned_to": "writer_agent",
+      "status": "pending",
+      "priority": 11,
+      "dependencies": [
+        "task_003",
+        "task_004",
+        "task_005",
+        "task_006",
+        "task_007",
+        "task_008"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-23T22:30:53.070169",
+      "started_at": null,
+      "completed_at": null
+    }
+  ],
+  "updated_at": "2026-06-23T22:30:53.976402"
+}

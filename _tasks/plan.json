@@ -1,0 +1,125 @@
+{
+  "project_name": "hotel_boutique_landing_page",
+  "description": "Landing page profesional para un hotel boutique con diseño moderno y funcionalidades interactivas.",
+  "tech_stack": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "tasks": [
+    {
+      "title": "Crear estructura HTML básica",
+      "description": "Crear index.html con secciones principales: hero, servicios, testimonios, contacto y footer.",
+      "assigned_to": "frontend_expert",
+      "dependencies": [],
+      "priority": 1
+    },
+    {
+      "title": "Diseñar estilos CSS base",
+      "description": "Crear styles.css con variables CSS para colores y fuentes principales. Diseño mobile-first.",
+      "assigned_to": "ui_expert",
+      "dependencies": [
+        "task_001"
+      ],
+      "priority": 2
+    },
+    {
+      "title": "Implementar hero section con gradiente",
+      "description": "Diseñar y aplicar estilos para la sección hero con fondo de gradiente y contenido (título, subtitulo).",
+      "assigned_to": "ui_expert",
+      "dependencies": [
+        "task_001",
+        "task_002"
+      ],
+      "priority": 3
+    },
+    {
+      "title": "Crear sección de servicios con iconos SVG",
+      "description": "Diseñar y agregar iconos SVG para la sección de servicios. Asegurar responsividad.",
+      "assigned_to": "ui_expert",
+      "dependencies": [
+        "task_001",
+        "task_002"
+      ],
+      "priority": 4
+    },
+    {
+      "title": "Implementar testimonios con cards animadas",
+      "description": "Diseñar y crear cards de testimonios con animaciones. Asegurar responsividad.",
+      "assigned_to": "ui_expert",
+      "dependencies": [
+        "task_001",
+        "task_002"
+      ],
+      "priority": 5
+    },
+    {
+      "title": "Implementar formulario de contacto funcional",
+      "description": "Crear script.js para validar y enviar el formulario de contacto. Asegurar diseño responsive.",
+      "assigned_to": "frontend_expert",
+      "dependencies": [
+        "task_001",
+        "task_002"
+      ],
+      "priority": 6
+    },
+    {
+      "title": "Implementar footer con redes sociales",
+      "description": "Diseñar y agregar enlaces a redes sociales al footer. Asegurar diseño responsive.",
+      "assigned_to": "ui_expert",
+      "dependencies": [
+        "task_001",
+        "task_002"
+      ],
+      "priority": 7
+    },
+    {
+      "title": "Implementar dark mode",
+      "description": "Crear funcionalidad para cambiar a modo oscuro utilizando variables CSS. Asegurar cambios en todas las secciones.",
+      "assigned_to": "ui_expert",
+      "dependencies": [
+        "task_001",
+        "task_002"
+      ],
+      "priority": 8
+    },
+    {
+      "title": "Optimizar imágenes y assets",
+      "description": "Comprimir e optimizar imágenes y otros recursos estáticos utilizados en la landing page.",
+      "assigned_to": "frontend_expert",
+      "dependencies": [
+        "task_001",
+        "task_002"
+      ],
+      "priority": 9
+    },
+    {
+      "title": "Pruebas de usabilidad",
+      "description": "Realizar pruebas de usabilidad en diferentes dispositivos y navegadores para asegurar funcionalidad y diseño.",
+      "assigned_to": "ui_expert",
+      "dependencies": [
+        "task_003",
+        "task_004",
+        "task_005",
+        "task_006",
+        "task_007",
+        "task_008"
+      ],
+      "priority": 10
+    },
+    {
+      "title": "README",
+      "description": "Crear README.md con descripción del proyecto, capturas de pantalla y instrucciones de uso.",
+      "assigned_to": "writer_agent",
+      "dependencies": [
+        "task_003",
+        "task_004",
+        "task_005",
+        "task_006",
+        "task_007",
+        "task_008"
+      ],
+      "priority": 11
+    }
+  ]
+}
