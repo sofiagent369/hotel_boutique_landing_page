@@ -11,49 +11,38 @@
   <section id="hero">
     <div class="hero-content">
       <h1>Bienvenido a Hotel Boutique</h1>
-      <p>Descubre una experiencia única en nuestro hotel boutique.</p>
-      <button class="cta-button">Reserva Ahora</button>
+      <p>Descubre la experiencia única que esperas.</p>
+      <button class="cta-button" aria-label="Reservar ahora">Reservar ahora</button>
     </div>
   </section>
 
-  <!-- Servicios Section -->
-  <section id="servicios">
-    <h2>Nuestros Servicios</h2>
+  <!-- Service Section -->
+  <section id="services">
     <div class="service-card">
-      <h3>Servicio 1</h3>
-      <p>Descripción del servicio 1.</p>
+      <h2>Servicio 1</h2>
+      <p>Detalles del servicio 1.</p>
     </div>
     <div class="service-card">
-      <h3>Servicio 2</h3>
-      <p>Descripción del servicio 2.</p>
-    </div>
-    <div class="service-card">
-      <h3>Servicio 3</h3>
-      <p>Descripción del servicio 3.</p>
+      <h2>Servicio 2</h2>
+      <p>Detalles del servicio 2.</p>
     </div>
   </section>
 
-  <!-- Testimonios Section -->
-  <section id="testimonios">
-    <h2>Testimonios</h2>
+  <!-- Testimonial Section -->
+  <section id="testimonials">
     <div class="testimonial-card">
-      <blockquote>"Un lugar realmente especial. Me encantó mi estadía."</blockquote>
-      <p>- Cliente 1</p>
+      <blockquote>"Una experiencia memorable en el Hotel Boutique."</blockquote>
+      <p>- Nombre del Cliente</p>
     </div>
     <div class="testimonial-card">
-      <blockquote>"La atención fue excelente y el servicio muy amable."</blockquote>
-      <p>- Cliente 2</p>
-    </div>
-    <div class="testimonial-card">
-      <blockquote>"Me gustó mucho la ubicación y las instalaciones modernas."</blockquote>
-      <p>- Cliente 3</p>
+      <blockquote>"El mejor lugar para relajarse y disfrutar.</blockquote>
+      <p>- Otro Cliente</p>
     </div>
   </section>
 
-  <!-- Contacto Section -->
+  <!-- Contact Section -->
   <section id="contacto">
-    <h2>Contacto</h2>
-    <form id="contact-form">
+    <form>
       <label for="nombre">Nombre:</label>
       <input type="text" id="nombre" name="nombre" required>
       
@@ -61,23 +50,24 @@
       <input type="email" id="email" name="email" required>
       
       <label for="mensaje">Mensaje:</label>
-      <textarea id="mensaje" name="mensaje" required></textarea>
+      <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
       
-      <button type="submit" class="cta-button">Enviar</button>
+      <button type="submit">Enviar</button>
     </form>
   </section>
 
   <!-- Footer Section -->
   <footer>
-    <p>&copy; 2026 Hotel Boutique. Todos los derechos reservados.</p>
+    <p>&copy; 2023 Hotel Boutique. Todos los derechos reservados.</p>
     <nav>
-      <a href="#hero">Inicio</a>
-      <a href="#servicios">Servicios</a>
-      <a href="#testimonios">Testimonios</a>
-      <a href="#contacto">Contacto</a>
+      <a href="#hero" aria-label="Ir a la sección Hero">Inicio</a>
+      <a href="#services" aria-label="Ir a la sección Servicios">Servicios</a>
+      <a href="#testimonials" aria-label="Ir a la sección Testimonios">Testimonios</a>
+      <a href="#contacto" aria-label="Ir a la sección Contacto">Contacto</a>
     </nav>
   </footer>
 
+  <!-- Scripts -->
   <script src="scripts.js"></script>
 </body>
 </html>
