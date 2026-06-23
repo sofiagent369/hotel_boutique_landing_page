@@ -25,3 +25,10 @@
 [2026-06-23 23:19:14] [IN_PROGRESS] task_007: Implementar footer con redes sociales
 [2026-06-23 23:24:02] [COMPLETED] task_007: Implementar footer con redes sociales
 [2026-06-23 23:24:04] [IN_PROGRESS] task_008: Implementar dark mode
+[2026-06-23 23:32:26] [COMPLETED] task_008: Implementar dark mode
+[2026-06-23 23:32:28] [IN_PROGRESS] task_009: Optimizar imágenes y assets
+[2026-06-23 23:42:29] [COMPLETED] task_009: Optimizar imágenes y assets
+[2026-06-23 23:42:32] [IN_PROGRESS] task_010: Pruebas de usabilidad
+[2026-06-23 23:54:01] [COMPLETED] task_010: Pruebas de usabilidad
+[2026-06-23 23:54:04] [IN_PROGRESS] task_011: README
+[2026-06-23 23:56:04] [COMPLETED] task_011: README

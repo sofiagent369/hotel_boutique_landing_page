@@ -138,41 +138,41 @@
       "title": "Implementar dark mode",
       "description": "Crear funcionalidad para cambiar a modo oscuro utilizando variables CSS. Asegurar cambios en todas las secciones.",
       "assigned_to": "ui_expert",
-      "status": "in_progress",
+      "status": "completed",
       "priority": 8,
       "dependencies": [
         "task_001",
         "task_002"
       ],
       "output_files": [],
-      "output_summary": "",
+      "output_summary": "### Tarea: Implementar dark mode\n\n#### Archivos a modificar:\n\n1. **index.html**\n2. **styles.css**\n3. **variables-dark.css**\n\n#### Paso 1: Crear archivo `variables-dark.css`\n\nEste archivo contendrá los colores para el modo oscuro.\n\n```css\n/* variables-dark.css */\n:root {\n  --primary-color: #2c3e50;\n ",
       "created_at": "2026-06-23T22:30:53.038780",
       "started_at": "2026-06-23T23:24:04.395189",
-      "completed_at": null
+      "completed_at": "2026-06-23T23:32:26.229462"
     },
     {
       "id": "task_009",
       "title": "Optimizar imágenes y assets",
       "description": "Comprimir e optimizar imágenes y otros recursos estáticos utilizados en la landing page.",
       "assigned_to": "frontend_expert",
-      "status": "pending",
+      "status": "completed",
       "priority": 9,
       "dependencies": [
         "task_001",
         "task_002"
       ],
       "output_files": [],
-      "output_summary": "",
+      "output_summary": "### Optimización de Imágenes y Assets\n\nPara optimizar las imágenes y otros recursos estáticos utilizados en la landing page, podemos utilizar herramientas como [ImageOptim](https://imageoptim.com/) para macOS o [TinyPNG](https://tinypng.com/) para imágenes PNG. Aquí, proporcionaré instrucciones gene",
       "created_at": "2026-06-23T22:30:53.048918",
-      "started_at": null,
-      "completed_at": null
+      "started_at": "2026-06-23T23:32:28.866930",
+      "completed_at": "2026-06-23T23:42:29.689665"
     },
     {
       "id": "task_010",
       "title": "Pruebas de usabilidad",
       "description": "Realizar pruebas de usabilidad en diferentes dispositivos y navegadores para asegurar funcionalidad y diseño.",
       "assigned_to": "ui_expert",
-      "status": "pending",
+      "status": "completed",
       "priority": 10,
       "dependencies": [
         "task_003",
@@ -183,17 +183,17 @@
         "task_008"
       ],
       "output_files": [],
-      "output_summary": "",
+      "output_summary": "### Implementación de Pruebas de Usabilidad\n\nPara realizar pruebas de usabilidad en diferentes dispositivos y navegadores, es importante asegurarse de que la landing page sea compatible y funcione bien en una variedad de entornos. Aquí te proporciono un plan detallado y los archivos necesarios para ",
       "created_at": "2026-06-23T22:30:53.054471",
-      "started_at": null,
-      "completed_at": null
+      "started_at": "2026-06-23T23:42:32.415761",
+      "completed_at": "2026-06-23T23:54:01.827576"
     },
     {
       "id": "task_011",
       "title": "README",
       "description": "Crear README.md con descripción del proyecto, capturas de pantalla y instrucciones de uso.",
       "assigned_to": "writer_agent",
-      "status": "pending",
+      "status": "completed",
       "priority": 11,
       "dependencies": [
         "task_003",
@@ -204,11 +204,11 @@
         "task_008"
       ],
       "output_files": [],
-      "output_summary": "",
+      "output_summary": "### README.md\n\n# Hotel Boutique Landing Page\n\n## Descripción del Proyecto\nEste es un proyecto de una landing page para el Hotel Boutique, diseñada con HTML, CSS y JavaScript. El objetivo principal es proporcionar una experiencia visualmente atractiva y funcional para los usuarios interesados en rese",
       "created_at": "2026-06-23T22:30:53.070169",
-      "started_at": null,
-      "completed_at": null
+      "started_at": "2026-06-23T23:54:04.990138",
+      "completed_at": "2026-06-23T23:56:04.456771"
     }
   ],
-  "updated_at": "2026-06-23T23:24:06.361292"
+  "updated_at": "2026-06-23T23:56:04.457373"
 }
