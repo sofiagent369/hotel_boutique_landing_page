@@ -7,70 +7,92 @@
   <link rel="stylesheet" href="styles.css">
   <svg style="display: none;">
     <!-- Iconos SVG -->
-    <symbol id="icon-service1" viewBox="0 0 24 24"><path d="M19.35 10H4.65C3.83 10 3 10.83 3 11.65v6.7c0 .92.7 1.65 1.5 1.65h14.7c.92 0 1.65-.73 1.65-1.65v-6.7c0-.82-.63-1.65-1.5-1.65zM12 21.65c-1.8 0-3.26-.67-4.48-1.9l-1.38-.92C6.5 19.58 5.5 18.7 5.5 17.5s1-2.08 2.2-2.98l1.38-.92C9.74 14.67 11.2 14 12 14s2.26.67 3.48 1.9l1.38.92c1.2.6.82 1.82-.48 2.98l-1.38.92z"/></symbol>
-    <symbol id="icon-service2" viewBox="0 0 24 24"><path d="M19 13h-1V5c0-2.76-2.24-5-5-5S7 2.24 7 5v8H5c-1.66 0-3 1.34-3 3s1.34 3 3 3h14c1.66 0 3-1.34 3-3s-1.34-3-3-3z"/></symbol>
+    <symbol id="icon-service1" viewBox="0 0 24 24"><path d="M19.35 10H4.65C3.83 10 3 10.83 3 11.65v6.7c0 .92.7 1.65 1.65 1.65h13.1C20.2 19.35 21 18.52 21 17.65V11.65C21 10.83 20.2 10 19.35 10zM4.65 12h13.1c.33 0 .6-.27.6-.6s-.27-.6-.6-.6H4.65C4.32 11.4.09 12.23.09 13s1.22 1.6 2.56 1.6c1.34 0 2.56-.77 2.56-1.6v-1.8C7.21 11.88 5.93 12 4.65 12z"/></symbol>
+    <symbol id="icon-service2" viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 20H4V8l8 5 8-5v14z"/></symbol>
+    <symbol id="icon-service3" viewBox="0 0 24 24"><path d="M17 6h5v2h-2v14h-5V8zm0-2H2v2h15V4zm2 18H2c-.55 0-1-.45-1-1s.45-1 1-1h18c.55 0 1 .45 1 1s-.45 1-1 1z"/></symbol>
   </svg>
 </head>
 <body>
+
   <!-- Hero Section -->
   <section id="hero">
-    <div class="hero-content">
+    <div class="container hero-content">
       <h1>Bienvenido a Hotel Boutique</h1>
-      <p>Descubre la experiencia única que esperas.</p>
-      <button class="cta-button" aria-label="Reservar ahora">Reservar ahora</button>
+      <p>Descubre la comodidad y el lujo en cada una de nuestras habitaciones.</p>
+      <a href="#contacto" class="cta-button">Reserva Ahora</a>
     </div>
   </section>
 
-  <!-- Service Section -->
+  <!-- Services Section -->
   <section id="services">
-    <div class="service-card">
-      <svg class="icon"><use xlink:href="#icon-service1"></use></svg>
-      <h2>Servicio 1</h2>
-      <p>Detalles del servicio 1.</p>
-    </div>
-    <div class="service-card">
-      <svg class="icon"><use xlink:href="#icon-service2"></use></svg>
-      <h2>Servicio 2</h2>
-      <p>Detalles del servicio 2.</p>
+    <div class="container">
+      <h2>Nuestros Servicios</h2>
+      <div class="service-card">
+        <svg><use xlink:href="#icon-service1"></use></svg>
+        <div>
+          <h2>Habitaciones Lujo</h2>
+          <p>Disfruta de habitaciones cómodas y modernas con todas las comodidades.</p>
+        </div>
+      </div>
+      <div class="service-card">
+        <svg><use xlink:href="#icon-service2"></use></svg>
+        <div>
+          <h2>Servicio al Cliente</h2>
+          <p>Nuestro equipo altamente calificado está disponible 24/7.</p>
+        </div>
+      </div>
+      <div class="service-card">
+        <svg><use xlink:href="#icon-service3"></use></svg>
+        <div>
+          <h2>Restaurante Exclusivo</h2>
+          <p>Degusta de nuestras deliciosas recetas en nuestro restaurante gourmet.</p>
+        </div>
+      </div>
     </div>
   </section>
 
-  <!-- Testimonial Section -->
+  <!-- Testimonials Section -->
   <section id="testimonials">
-    <div class="testimonial-card">
-      <blockquote>"Una experiencia memorable en el Hotel Boutique."</blockquote>
-      <p>- Nombre del Cliente</p>
-    </div>
-    <div class="testimonial-card">
-      <blockquote>"El mejor lugar para relajarse y disfrutar.</blockquote>
-      <p>- Otro Cliente</p>
+    <div class="container">
+      <h2>Testimonios</h2>
+      <div class="testimonial-card fade-in-up">
+        <blockquote>"Me encantó mi estadía en el Hotel Boutique. El servicio fue excepcional y las habitaciones eran increíbles."</blockquote>
+        <p>- María López</p>
+      </div>
+      <div class="testimonial-card fade-in-up">
+        <blockquote>"Un lugar mágico para pasar vacaciones. La atención personalizada y la comodidad fueron las mejores experiencias que tuve."</blockquote>
+        <p>- Juan Pérez</p>
+      </div>
     </div>
   </section>
 
   <!-- Contact Section -->
   <section id="contacto">
-    <form>
-      <label for="nombre">Nombre:</label>
-      <input type="text" id="nombre" name="nombre" required>
-      
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
-      
-      <label for="mensaje">Mensaje:</label>
-      <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
-      
-      <button type="submit">Enviar</button>
-    </form>
+    <div class="container">
+      <h2>Contacta con Nosotros</h2>
+      <form action="#" method="post">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Mensaje:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        
+        <button type="submit" class="cta-button">Enviar</button>
+      </form>
+    </div>
   </section>
 
-  <!-- Footer Section -->
+  <!-- Footer -->
   <footer>
-    <p>&copy; 2023 Hotel Boutique. Todos los derechos reservados.</p>
+    <p>&copy; 2026 Hotel Boutique. Todos los derechos reservados.</p>
     <nav>
-      <a href="#hero" aria-label="Ir al inicio">Inicio</a>
-      <a href="#services" aria-label="Ir a servicios">Servicios</a>
-      <a href="#testimonials" aria-label="Ir a testimonios">Testimonios</a>
-      <a href="#contacto" aria-label="Ir a contacto">Contacto</a>
+      <a href="#hero">Inicio</a>
+      <a href="#services">Servicios</a>
+      <a href="#testimonials">Testimonios</a>
+      <a href="#contacto">Contacto</a>
     </nav>
   </footer>
 

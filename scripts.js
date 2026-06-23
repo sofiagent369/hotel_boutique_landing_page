@@ -1,16 +1,21 @@
-// Scripts adicionales si es necesario
-document.addEventListener('DOMContentLoaded', function() {
-  // Ejemplo de script: Scroll suave
-  const links = document.querySelectorAll('nav a');
-  links.forEach(link => {
-    link.addEventListener('click', function(e) {
-      e.preventDefault();
-      const targetId = this.getAttribute('href').substring(1);
-      const targetElement = document.getElementById(targetId);
-      window.scrollTo({
-        top: targetElement.offsetTop,
-        behavior: 'smooth'
-      });
+document.addEventListener("DOMContentLoaded", function() {
+  const testimonials = document.querySelectorAll('.testimonial-card');
+
+  window.addEventListener('scroll', () => {
+    testimonials.forEach(testimonial => {
+      if (isInViewport(testimonial)) {
+        testimonial.classList.add('visible');
+      }
     });
   });
+
+  function isInViewport(element) {
+    const rect = element.getBoundingClientRect();
+    return (
+      rect.top >= 0 &&
+      rect.left >= 0 &&
+      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+  }
 });
